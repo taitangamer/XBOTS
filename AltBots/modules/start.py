@@ -12,7 +12,7 @@ START_BUTTON = [
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Dangerous_fighter_clan_0")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://t.me/taitangamerzz")
+        Button.url("• ᴏᴡɴᴇʀ •", "https://t.me/taitangamerzz")
     ]
 ]
 
@@ -40,7 +40,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "",
+                    "https://telegra.ph/file/28fcd90c1d7dfcd18c5e2.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
